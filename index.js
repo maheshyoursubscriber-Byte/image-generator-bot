@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 
 const token = "7551215811:AAEyLxSw52NmAEls3xSWBGYqxiftDXoCWsY";
 const admin = "6843751342";
-const DATABASE_URL = "https://mahesh-firebase-real-time-data-default-rtdb.firebaseio.com"; 
+const DATABASE_URL = "https://mahesh-firebase-real-time-data-default-rtdb.firebaseio.com/"; 
 const WEBHOOK_URL = "https://image-generator-bot-omega.vercel.app/";
 
 const bot = new TelegramBot(token, { webHook: { port: false } });
