@@ -118,11 +118,11 @@ app.post("/", async (req, res) => {
       const caption =
         "*👆 Here Is Your Generated Image\n\n💭 Your Prompt:*\n`" +
         msg.text +
-        "`\n\n*🧑‍💻 Created By:* [BOTNAME](https://telegram.dog/IMGINATOR_BOT)";
+        "`\n\n*🧑‍💻 Created By:* [@IMGINATOR_BOT](https://telegram.dog/IMGINATOR_BOT)";
       const keyboard = {
         reply_markup: {
           inline_keyboard: [
-            [{ text: "🧑‍💻 Developer", url: "t.me/FFSaurabhbhai" }]
+            [{ text: "🧑‍💻 Developer", url: "@FFSaurabhbhai" }]
           ]
         },
         parse_mode: "Markdown",
