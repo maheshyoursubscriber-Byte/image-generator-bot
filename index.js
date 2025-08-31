@@ -122,7 +122,7 @@ app.post("/", async (req, res) => {
       const keyboard = {
         reply_markup: {
           inline_keyboard: [
-            [{ text: "🧑‍💻 Developer", url: "https://telegram.dog/Saurabh Yadav" }]
+            [{ text: "🧑‍💻 Developer", url: "t.me/FFSaurabhbhai" }]
           ]
         },
         parse_mode: "Markdown",
